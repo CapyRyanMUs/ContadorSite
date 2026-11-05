@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
 
 :root {
-    color-scheme: light;
-    --paper: #f3f0e9;
-    --ink: #22231f;
-    --muted: #77766e;
-    --line: #d8d3c8;
-    --accent: #bd4b32;
-    --positive: #52745c;
-    --negative: #bd4b32;
+    color-scheme: dark;
+    --paper: #171916;
+    --ink: #eee9de;
+    --muted: #aaa99f;
+    --line: #393b35;
+    --accent: #dc8065;
+    --positive: #9dbb91;
+    --negative: #e28a72;
     --serif: 'Playfair Display', Georgia, serif;
     --sans: 'DM Sans', 'Segoe UI', sans-serif;
     --mono: 'DM Mono', 'Courier New', monospace;
@@ -171,7 +171,7 @@ h1 {
 .control:hover:not(:disabled) {
     border-color: var(--accent);
     background: var(--accent);
-    color: #fffaf2;
+    color: #171916;
 }
 
 .control:active:not(:disabled) {
@@ -185,7 +185,7 @@ h1 {
 
 .control:disabled {
     border-color: var(--line);
-    color: #a7a398;
+    color: #686b62;
     cursor: not-allowed;
 }
 
