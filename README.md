@@ -1,5 +1,6 @@
 # Contador
 ![Screenshot](Screenshot.png)
+
 Um pequeno projeto de front-end desenvolvido para praticar os fundamentos de HTML, CSS e JavaScript. A aplicação permite incrementar, decrementar e zerar um valor por meio de uma interface simples e responsiva.
 
 ## Funcionalidades
