@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f3f0e9">
+    <meta name="description" content="Um contador simples para praticar os fundamentos do front-end.">
+    <title>Contador — um exercício de front-end</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page-shell">
+        <header class="page-header">
+            <p class="eyebrow">Exercício de front-end <span aria-hidden="true">/</span> 01</p>
+            <p class="header-note">Um número de cada vez.</p>
+        </header>
+
+        <section class="counter" aria-labelledby="counter-title">
+            <p class="counter-index" aria-hidden="true">01 — INTERAÇÃO</p>
+            <h1 id="counter-title">Contador</h1>
+            <p class="counter-label" id="counter-label">Valor atual</p>
+
+            <output class="counter-display" id="counter-value" aria-labelledby="counter-label" aria-live="polite" aria-atomic="true">0</output>
+
+            <div class="counter-controls" aria-label="Controles do contador">
+                <button id="decrement-btn" class="control control-step" type="button" aria-label="Diminuir em um">
+                    <span aria-hidden="true">−</span>
+                </button>
+                <button id="reset-btn" class="control control-reset" type="button">Voltar ao zero</button>
+                <button id="increment-btn" class="control control-step" type="button" aria-label="Aumentar em um">
+                    <span aria-hidden="true">+</span>
+                </button>
+            </div>
+
+            <p class="counter-hint">Use + ou − para ajustar o valor.</p>
+        </section>
+
+        <footer class="page-footer">
+            <span>HTML · CSS · JavaScript</span>
+            <span>Feito para aprender</span>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
